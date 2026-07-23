@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ body {
     background: #fff url(imagens/fundo.png) repeat-x;
 }
 
-#container{
+#container {
     width: 900px;
     margin: 0 auto;
 }
@@ -21,7 +21,7 @@ header {
     background: url(imagens/detalhe-topo.png) no-repeat right top;
 }
 
-menu ul{
+menu ul {
     list-style: none;
     margin-top: 20px;
     display: inline-flex;
@@ -29,17 +29,17 @@ menu ul{
     border-radius: 6px;
 }
 
-menu ul li{
+menu ul li {
     border-right: solid 1px #69001e49;
 }
 
-menu ul li:last-child{
+menu ul li:last-child {
     border-right: none;
 }
 
 menu li a {
-    display: block; 
-    padding: 15px 30px; 
+    display: block;
+    padding: 15px 30px;
     text-decoration: none;
     color: #fff;
     font-size: 0.9em;
@@ -49,21 +49,59 @@ menu li a:hover {
     background-color: #69001d;
 }
 
-.primeiroA{
+.primeiroA {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
 }
 
-.ultimoA{
+.ultimoA {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
 
-/* HEADER END */
-
-body.home menu a#home {
+body.home menu a#home,
+body.brasil menu a#brasil,
+body.internacional menu a#internacional,
+body.economia menu a#economia,
+body.saude menu a#saude,
+body.ciencia menu a#ciencia,
+body.fotos menu a#fotos {
     background: #de003e;
     color: #fff;
     cursor: text;
 }
 
+/* HEADER END */
+
+main {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+main h2 {
+    background-color: #294c71;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}
+
+#lateral {
+    width: 210px;
+    background: url(imagens/fundo-caixa.png);
+    padding: 10px;
+}
+
+#primario {
+    width: 325px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+#secundario {
+    width: 325px;
+    padding: 10px;
+    background: url(imagens/fundo-caixa.png);
+}
