@@ -26,7 +26,7 @@ menu ul {
     margin-top: 20px;
     display: inline-flex;
     background-color: #b10333;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 menu ul li {
@@ -50,13 +50,13 @@ menu li a:hover {
 }
 
 .primeiroA {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .ultimoA {
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 body.home menu a#home,
@@ -80,17 +80,98 @@ main {
 
 main h2 {
     background-color: #294c71;
-    border-radius: 6px;
+    border-radius: 8px;
     color: #fff;
     padding: 8px;
     text-align: center;
 }
 
+.conteudo {
+    background-color: #ffff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* lateral Column start */
+
+#coluna-lateral {
+    width: 210px
+}
+
 #lateral {
-    width: 210px;
     background: url(imagens/fundo-caixa.png);
     padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
+
+#lateral .conteudo ul li {
+    list-style: none;
+    margin-bottom: 25px;
+    font-size: 1em;
+}
+
+#lateral .conteudo ul li:last-child {
+    margin-bottom: 0;
+}
+
+#lateral .conteudo a {
+    text-decoration: none;
+    color: #294c71;
+}
+
+#lateral .conteudo ul a:hover {
+    background: url(imagens/marcador.png) no-repeat left center;
+    padding-left: 22px;
+    color: #b10333;
+}
+
+#notif {
+    margin-top: 20px;
+    background: url(imagens/fundo-caixa.png);
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box
+}
+
+.email label {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 7px;
+    color: #294c71;
+}
+
+.email input {
+    padding: 5px;
+    font-size: 0.9em;
+    width: 92%;
+    border: solid 2px #294c71ad;
+    border-radius: 8px;
+    outline: none;
+}
+
+.email input:focus {
+    border-color: #de003f7b;
+}
+
+.submit input {
+    margin-top: 8px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    color: #fff;
+    border: solid #b10333;
+    background-color: #de003e;
+    border-radius: 8px;
+}
+
+.submit input:active {
+    background-color: #294c71;
+    border-color: #fff;
+}
+
+/* lateral column end */
 
 #primario {
     width: 325px;
@@ -98,10 +179,14 @@ main h2 {
     margin-left: 20px;
     margin-right: 20px;
     background: url(imagens/fundo-caixa.png);
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 #secundario {
     width: 325px;
     padding: 10px;
     background: url(imagens/fundo-caixa.png);
+    border-radius: 10px;
+    box-sizing: border-box;
 }
