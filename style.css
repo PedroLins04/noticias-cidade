@@ -120,6 +120,11 @@ main h2 {
 
 .conteudo a {
     color: #de003e;
+    text-decoration: none;
+}
+
+.conteudo a:hover{
+    text-decoration: underline;
 }
 
 /* lateral Column start */
@@ -228,17 +233,17 @@ main h2 {
     gap: 8px;
 }
 
-.texto{
+.texto {
     display: flex;
     flex-direction: column;
 }
 
-.texto h5{
+.texto h5 {
     color: #de003e;
     margin: 0;
 }
 
-.texto p{
+.texto p {
     margin: 0;
     font-size: 14px;
     background-color: #fff;
@@ -277,4 +282,16 @@ main h2 {
     border-radius: 10px;
     box-sizing: border-box;
     margin-bottom: 20px;
+}
+
+/*STYLE*/
+
+.entrevistador {
+    color: #3f79b7;
+    font-weight: bold;
+}
+
+.convidado {
+    color: #de003e;
+    font-weight: bold;
 }

@@ -1,33 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias Cidade</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="internacional">
 
     <div id="container">
 
-    <header> 
-        <img src="imagens/logo.png" alt="logo" title="Notícias Cidade">
+        <header>
+            <img src="imagens/logo.png" alt="logo" title="Notícias Cidade">
 
-        <menu>
-            <ul>
-                <li><a id="home" class="primeiroA" href="index.html">Home</a></li>
-                <li><a id="brasil" href="brasil.html">Brasil</a></li>
-                <li><a id="internacional" href="internacional.html">Internacional</a></li>
-                <li><a id="economia" href="economia.html">Economia</a></li>
-                <li><a id="saude" href="saude.html">Saúde</a></li>
-                <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
-                <li><a id="fotos" class="ultimoA" href="fotos.html">Fotos</a></li>
-            </ul>
-        </menu>
-    </header>
+            <menu>
+                <ul>
+                    <li><a id="home" class="primeiroA" href="index.html">Home</a></li>
+                    <li><a id="brasil" href="brasil.html">Brasil</a></li>
+                    <li><a id="internacional" href="internacional.html">Internacional</a></li>
+                    <li><a id="economia" href="economia.html">Economia</a></li>
+                    <li><a id="saude" href="saude.html">Saúde</a></li>
+                    <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
+                    <li><a id="fotos" class="ultimoA" href="fotos.html">Fotos</a></li>
+                </ul>
+            </menu>
+        </header>
+
+        <main>
+
+            <div id="coluna-lateral">
+                <aside id="lateral">
+
+                    <h2>Entrevistas</h2>
+
+                    <div class="conteudo">
+                        <ul>
+                            <li><a href="internacional.html">Peter Parker</a></li>
+                            <li><a href="">Matt Murdock</a></li>
+                            <li><a href="">Dick Grayson</a></li>
+                            <li><a href="">Frank Castle</a></li>
+                            <li><a href="">Tony Stark</a></li>
+                            <li><a href="">Barry Allen</a></li>
+                            <li><a href="">Bruce Wayne</a></li>
+                            <li><a href="">Ben Reilly</a></li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <div id="notif">
+                    <h2>Notificações</h2>
+
+                    <div class="conteudo">
+                        <form>
+                            <div class="email">
+                                <label for="email">Cadastre-se:</label>
+                                <input type="text" placeholder="Digite seu e-mail" name="email" id="email">
+                            </div>
+                            <div class="submit">
+                                <input type="submit" name="cadastrar" value="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="primario">
+                <h2>INTERNACIONAL</h2>
+
+                <div class="conteudo">
+
+                    <div class="entrevista">
+                        <h3>ENTREVISTA COM P. PARKER</h3>
+                        <img src="imagens/tom-holland.jpg" alt="Peter Parker" title="Peter Parker" width="100%">
+
+                        <p><span class="entrevistador">Entrevistador:</span> Peter, por que fotografia? O que fez você
+                            escolher essa profissão?</p>
+
+                        <p><span class="convidado">Peter Parker:</span> "A cidade de Nova York se move rápido demais. A
+                            fotografia é a única maneira que encontrei de fazer o tempo parar por um segundo para que as
+                            pessoas vejam o que realmente importa."</p>
+
+                        <p><span class="entrevistador">Entrevistador:</span> O que você acha que as pessoas acabam
+                            deixando de ver nessa correria do dia a dia?</p>
+
+                        <p><span class="convidado">Peter Parker:</span> "Pequenos detalhes. Um gesto de gentileza na
+                            esquina, o olhar de alívio de alguém que acabou de ser ajudado ou até mesmo a beleza do caos
+                            que nos cerca. Tudo acontece tão rápido que, sem uma câmera, esses momentos simplesmente
+                            desapareceriam."</p>
+
+                        <p><span class="entrevistador">Entrevistador:</span> Grande parte do seu trabalho envolve
+                            fotografar super-heróis. O que há de tão especial nisso?</p>
+
+                        <p><span class="convidado">Peter Parker:</span> "Muita gente olha para um herói e vê apenas
+                            alguém com poderes. Eu tento fotografar o instante em que eles demonstram humanidade. O
+                            momento em que estendem a mão para levantar alguém, quando respiram aliviados depois de
+                            salvar uma vida ou quando carregam o peso de uma decisão difícil. É nesses segundos que eles
+                            deixam de ser símbolos e voltam a ser pessoas."</p>
+
+                        <p><span class="entrevistador">Entrevistador:</span> O Homem-Aranha aparece com frequência nas
+                            suas fotos. O que chama sua atenção nele?</p>
+
+                        <p><span class="convidado">Peter Parker:</span> "Ele nunca parece procurar reconhecimento. Quase
+                            sempre, assim que tudo acaba, ele simplesmente vai embora. Acho interessante isso... fazer a
+                            coisa certa sem esperar aplausos. É algo raro hoje em dia."</p>
+
+                        <p><span class="entrevistador">Entrevistador:</span> Você já se perguntou por que ele continua
+                            fazendo isso?</p>
+
+                        <p><span class="convidado">Peter Parker:</span> "Todos os dias. Imagino que ninguém enfrente
+                            tanto perigo apenas pela emoção. Deve existir algum motivo muito pessoal. Talvez ele só
+                            acredite que, se pode ajudar alguém, então não tem o direito de ficar parado."</p>
+
+                        <p><span class="entrevistador">Entrevistador:</span> Qual é a sua filosofia como fotógrafo?</p>
+
+                        <p><span class="convidado">Peter Parker:</span> "Uma boa fotografia não serve apenas para
+                            mostrar o que aconteceu. Ela precisa fazer a pessoa sentir que estava lá. Se alguém olha
+                            para uma das minhas fotos e, por um instante, sente esperança, coragem ou compaixão... então
+                            eu fiz meu trabalho."</p>
+
+                        <p><span class="entrevistador">Entrevistador:</span> E o que você espera deixar como legado?</p>
+
+                        <p><span class="convidado">Peter Parker:</span> "As manchetes desaparecem no dia seguinte. As
+                            fotos ficam. Se daqui a muitos anos alguém olhar para uma das minhas imagens e lembrar que
+                            ainda existiam pessoas dispostas a arriscar tudo pelos outros, acho que já terá valido a
+                            pena apertar o obturador."</p>
+                    </div>
+                </div>
+            </div>
+        </main>
 
     </div>
 
-    
+    <footer>
+        &copy; Copyright 2000-2018 Notícias cidade
+    </footer>
+
 </body>
+
 </html>
