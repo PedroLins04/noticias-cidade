@@ -73,7 +73,7 @@ body.internacional menu a#internacional,
 body.economia menu a#economia,
 body.saude menu a#saude,
 body.ciencia menu a#ciencia,
-body.fotos menu a#fotos {
+body.mundo menu a#mundo {
     background: #de003e;
     color: #fff;
     cursor: text;
@@ -138,6 +138,7 @@ main h2 {
     padding: 10px;
     border-radius: 10px;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 #lateral .conteudo ul li {
@@ -162,7 +163,6 @@ main h2 {
 }
 
 #notif {
-    margin-top: 20px;
     background: url(imagens/fundo-caixa.png);
     padding: 10px;
     border-radius: 10px;
