@@ -134,7 +134,11 @@ main h2 {
 /* lateral Column start */
 
 #coluna-lateral {
-    width: 210px
+    width: 210px;
+    position: sticky;
+    top: 240px;
+    align-self: flex-start;
+    z-index: 1000;
 }
 
 #lateral {
